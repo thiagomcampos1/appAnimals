@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "DevAppProject",
+    "slug": "DevAppProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Meau_Icone.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Meau_Icone.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.oseiasromeiro.DevAppProject",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49fe4d9f-efa5-400e-9f4d-a972fa4a0d77"
+      }
+    }
+  }
+}
